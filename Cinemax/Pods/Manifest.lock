@@ -1,0 +1,36 @@
+PODS:
+  - FSPagerView (0.8.3)
+  - IQKeyboardManagerSwift (6.5.16)
+  - JXPageControl (0.1.5):
+    - JXPageControl/Common (= 0.1.5)
+    - JXPageControl/Jump (= 0.1.5)
+    - JXPageControl/Transform (= 0.1.5)
+  - JXPageControl/Common (0.1.5)
+  - JXPageControl/Jump (0.1.5):
+    - JXPageControl/Common
+  - JXPageControl/Transform (0.1.5):
+    - JXPageControl/Common
+  - YoutubePlayer-in-WKWebView (0.3.9)
+
+DEPENDENCIES:
+  - FSPagerView
+  - IQKeyboardManagerSwift
+  - JXPageControl
+  - YoutubePlayer-in-WKWebView
+
+SPEC REPOS:
+  trunk:
+    - FSPagerView
+    - IQKeyboardManagerSwift
+    - JXPageControl
+    - YoutubePlayer-in-WKWebView
+
+SPEC CHECKSUMS:
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
+  JXPageControl: e9487b39e2e58fc17790833214f3b8e935bef98b
+  YoutubePlayer-in-WKWebView: 2bfac1a51faec752a9ecf6e7019f13347aad4da0
+
+PODFILE CHECKSUM: 9693b63ac46ee4f43f866d3e09da65b05574c530
+
+COCOAPODS: 1.15.2

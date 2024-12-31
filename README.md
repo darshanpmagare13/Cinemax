@@ -1,2 +1,2 @@
 # Cinemax
-TMDB Movies App
+Cinemax It is TMDB Powered movie Info app
