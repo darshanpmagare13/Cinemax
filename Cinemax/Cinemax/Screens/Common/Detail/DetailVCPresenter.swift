@@ -40,17 +40,17 @@ class DetailVCPresenter {
         }
     }
     var movieProductionHouses = [ProductionCompany]()
-    var realmDataRepositoryManager : RealmDataRepositoryManagerProtocol?
+//    var realmDataRepositoryManager : RealmDataRepositoryManagerProtocol?
     var wishlistMoviesIds = [Int]()
     var isLoading : Observable<Bool> = Observable(value:false)
     let dispatchGroup = DispatchGroup()
     let disposeBag = DisposeBag()
-    init(view : DetailVCProtocol,interactor:DetailVCInteractorProtocol,router:DetailVCRouterProtocol,movieId: Int?,realmDataRepositoryManager : RealmDataRepositoryManagerProtocol?){
+    init(view : DetailVCProtocol,interactor:DetailVCInteractorProtocol,router:DetailVCRouterProtocol,movieId: Int?){
         self.view = view
         self.interactor = interactor
         self.movieId = movieId
         self.router = router
-        self.realmDataRepositoryManager = realmDataRepositoryManager
+//        self.realmDataRepositoryManager = realmDataRepositoryManager
     }
 }
 
@@ -152,30 +152,30 @@ extension DetailVCPresenter : DetailVCPresenterProtocol {
     }
     
     func addMovieToWishlist(){
-        if let movieId = self.movieId{
-            let movie = RealmMoviesModel(movieId: movieId)
-            realmDataRepositoryManager?.addMovieToWishlist(movie:movie)
-            fetchWishlistMoviesIds()
-        }
+//        if let movieId = self.movieId{
+//            let movie = RealmMoviesModel(movieId: movieId)
+//            realmDataRepositoryManager?.addMovieToWishlist(movie:movie)
+//            fetchWishlistMoviesIds()
+//        }
     }
     
     func removeMovieFromWishlist(){
-        if let movieId = self.movieId{
-            realmDataRepositoryManager?.deleteMovieFromWishlist(movieId:movieId)
-            fetchWishlistMoviesIds()
-        }
+//        if let movieId = self.movieId{
+//            realmDataRepositoryManager?.deleteMovieFromWishlist(movieId:movieId)
+//            fetchWishlistMoviesIds()
+//        }
     }
     
     func fetchWishlistMoviesIds(){
-        var tempArray = [Int]()
-        if let wishlistMoviesArray = realmDataRepositoryManager?.getMovieFromWishlist() {
-            for movie in wishlistMoviesArray {
-                if let movieId = movie.movieId.value {
-                    tempArray.append(movieId)
-                }
-            }
-            wishlistMoviesIds = tempArray
-        }
+//        var tempArray = [Int]()
+//        if let wishlistMoviesArray = realmDataRepositoryManager?.getMovieFromWishlist() {
+//            for movie in wishlistMoviesArray {
+//                if let movieId = movie.movieId.value {
+//                    tempArray.append(movieId)
+//                }
+//            }
+//            wishlistMoviesIds = tempArray
+//        }
     }
     
     func showLoader(){

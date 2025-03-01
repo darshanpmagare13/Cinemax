@@ -22,7 +22,7 @@ class WishListVCPresenter {
     weak var view: WishListVCProtocol?
     var interactor: WishListVCInteractorProtocol
     var router: WishListVCRouterProtocol
-    var realmDataRepositoryManager : RealmDataRepositoryManagerProtocol?
+//    var realmDataRepositoryManager : RealmDataRepositoryManagerProtocol?
     var datasource = [MoviesCollectionViewDetailCellModel](){
         didSet{
             DispatchQueue.main.async { [weak self] in
@@ -34,11 +34,11 @@ class WishListVCPresenter {
     var isWishlistEmpty : Observable<Bool> = Observable(value:false)
     let dispatchGroup = DispatchGroup()
     let disposeBag = DisposeBag()
-    init(view: WishListVCProtocol?,interactor: WishListVCInteractorProtocol,router: WishListVCRouterProtocol,realmDataRepositoryManager : RealmDataRepositoryManagerProtocol){
+    init(view: WishListVCProtocol?,interactor: WishListVCInteractorProtocol,router: WishListVCRouterProtocol){
         self.view = view
         self.interactor = interactor
         self.router = router
-        self.realmDataRepositoryManager = realmDataRepositoryManager
+//        self.realmDataRepositoryManager = realmDataRepositoryManager
     }
 }
 
@@ -57,14 +57,14 @@ extension WishListVCPresenter: WishListVCPresenterProtocol {
     
     func fetchMoviesFromWishlist(){
         var masterMovieModelResult = [MasterMovieModelResult]()
-        if let movies = realmDataRepositoryManager?.getMovieFromWishlist() {
-            for movie in movies {
-                if let id = movie.movieId.value { // Accessing the value property
-                    let MasterMovieModelResult = MasterMovieModelResult(adult: nil, backdropPath: nil, genreIDS: nil, id: id, originalLanguage: nil, originalTitle: nil, overview: nil, popularity: nil, posterPath: nil, releaseDate: nil, title: nil, name: nil, video: nil, voteAverage: nil, voteCount: nil)
-                    masterMovieModelResult.append(MasterMovieModelResult)
-                }
-            }
-        }
+//        if let movies = realmDataRepositoryManager?.getMovieFromWishlist() {
+//            for movie in movies {
+//                if let id = movie.movieId.value { // Accessing the value property
+//                    let MasterMovieModelResult = MasterMovieModelResult(adult: nil, backdropPath: nil, genreIDS: nil, id: id, originalLanguage: nil, originalTitle: nil, overview: nil, popularity: nil, posterPath: nil, releaseDate: nil, title: nil, name: nil, video: nil, voteAverage: nil, voteCount: nil)
+//                    masterMovieModelResult.append(MasterMovieModelResult)
+//                }
+//            }
+//        }
         self.fetchAllMoviesPagewise(wishliastMovies:masterMovieModelResult)
     }
     
@@ -104,7 +104,7 @@ extension WishListVCPresenter: WishListVCPresenterProtocol {
     }
     
     func removeAllMoviesFromWishlist(){
-        realmDataRepositoryManager?.deleteAllMoviesFromWishlist()
+//        realmDataRepositoryManager?.deleteAllMoviesFromWishlist()
         datasource.removeAll()
     }
     

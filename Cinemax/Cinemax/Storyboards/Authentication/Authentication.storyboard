@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -378,7 +378,6 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I already have an account?" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSm-1Y-MI2">
                                                                 <rect key="frame" x="0.0" y="0.0" width="294" height="50"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
-                                                                <color key="textColor" systemColor="systemGray6Color"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNJ-Od-96O">
@@ -417,7 +416,6 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or Sign up with" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taH-OO-e8V">
                                                         <rect key="frame" x="0.0" y="0.0" width="374" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
-                                                        <color key="textColor" systemColor="systemGray6Color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MhH-1m-mgo">
@@ -486,28 +484,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vev-Kk-HkQ">
-                                <rect key="frame" x="0.0" y="48" width="512.5" height="814"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="evd-bL-aeG">
-                                        <rect key="frame" x="0.0" y="0.0" width="512.5" height="928"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="928"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="u17-2N-b3Y">
-                                                <rect key="frame" x="0.0" y="0.0" width="512.5" height="928"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="928"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Fy-bx-6Vt">
-                                                        <rect key="frame" x="0.0" y="0.0" width="512.5" height="100"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ONh-uE-ezV">
-                                                                <rect key="frame" x="10" y="5" width="492.5" height="90"/>
+                                                                <rect key="frame" x="10" y="5" width="394" height="90"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let’s get started" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILQ-Rn-zgG">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="492.5" height="55"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="51.5"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your details." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYd-vK-3qa">
-                                                                        <rect key="frame" x="0.0" y="65" width="492.5" height="25"/>
+                                                                        <rect key="frame" x="0.0" y="61.5" width="394" height="28.5"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="18"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -525,16 +523,16 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZo-YQ-WV3">
-                                                        <rect key="frame" x="0.0" y="110" width="512.5" height="570"/>
+                                                        <rect key="frame" x="0.0" y="110" width="414" height="570"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="6vw-mc-PZc">
-                                                                <rect key="frame" x="20" y="0.0" width="472.5" height="570"/>
+                                                                <rect key="frame" x="20" y="0.0" width="374" height="570"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cXP-Kf-lQk" customClass="RoundedCornerView" customModule="Cinemax" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="472.5" height="60"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
                                                                         <subviews>
                                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r6k-5w-8MU">
-                                                                                <rect key="frame" x="10" y="10" width="452.5" height="40"/>
+                                                                                <rect key="frame" x="10" y="10" width="354" height="40"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits"/>
@@ -566,10 +564,10 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V6X-BJ-ejj" customClass="RoundedCornerView" customModule="Cinemax" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="85" width="472.5" height="60"/>
+                                                                        <rect key="frame" x="0.0" y="85" width="374" height="60"/>
                                                                         <subviews>
                                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gyn-ET-5iD">
-                                                                                <rect key="frame" x="10" y="10" width="452.5" height="40"/>
+                                                                                <rect key="frame" x="10" y="10" width="354" height="40"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits"/>
@@ -601,10 +599,10 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G6E-z3-5rC" customClass="RoundedCornerView" customModule="Cinemax" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="170" width="472.5" height="60"/>
+                                                                        <rect key="frame" x="0.0" y="170" width="374" height="60"/>
                                                                         <subviews>
                                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone number (Optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9AS-I0-c4v">
-                                                                                <rect key="frame" x="10" y="10" width="452.5" height="40"/>
+                                                                                <rect key="frame" x="10" y="10" width="354" height="40"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
@@ -636,10 +634,10 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBT-O1-dg4" customClass="RoundedCornerView" customModule="Cinemax" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="255" width="472.5" height="60"/>
+                                                                        <rect key="frame" x="0.0" y="255" width="374" height="60"/>
                                                                         <subviews>
                                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Date of birth (Optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hKX-iT-y0x">
-                                                                                <rect key="frame" x="10" y="10" width="452.5" height="40"/>
+                                                                                <rect key="frame" x="10" y="10" width="354" height="40"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits"/>
@@ -671,10 +669,10 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Kc-v7-Dad" customClass="RoundedCornerView" customModule="Cinemax" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="340" width="472.5" height="60"/>
+                                                                        <rect key="frame" x="0.0" y="340" width="374" height="60"/>
                                                                         <subviews>
                                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Gender" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8EC-gS-qmv">
-                                                                                <rect key="frame" x="10" y="10" width="452.5" height="40"/>
+                                                                                <rect key="frame" x="10" y="10" width="354" height="40"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits"/>
@@ -706,10 +704,10 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oRH-Sy-nW0" customClass="RoundedCornerView" customModule="Cinemax" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="425" width="472.5" height="60"/>
+                                                                        <rect key="frame" x="0.0" y="425" width="374" height="60"/>
                                                                         <subviews>
                                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DyZ-vR-FOU">
-                                                                                <rect key="frame" x="10" y="10" width="452.5" height="40"/>
+                                                                                <rect key="frame" x="10" y="10" width="354" height="40"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits"/>
@@ -741,10 +739,10 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Pp-PP-faB" customClass="RoundedCornerView" customModule="Cinemax" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="510" width="472.5" height="60"/>
+                                                                        <rect key="frame" x="0.0" y="510" width="374" height="60"/>
                                                                         <subviews>
                                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="343-sL-NVg">
-                                                                                <rect key="frame" x="10" y="10" width="452.5" height="40"/>
+                                                                                <rect key="frame" x="10" y="10" width="354" height="40"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -755,7 +753,7 @@
                                                                                 </userDefinedRuntimeAttributes>
                                                                             </textField>
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59X-JB-UQB">
-                                                                                <rect key="frame" x="412.5" y="10" width="50" height="40"/>
+                                                                                <rect key="frame" x="314" y="10" width="50" height="40"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="50" id="nAb-zB-QBy"/>
                                                                                 </constraints>
@@ -802,13 +800,13 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Oq-T0-piR">
-                                                        <rect key="frame" x="0.0" y="690" width="512.5" height="238"/>
+                                                        <rect key="frame" x="0.0" y="690" width="414" height="238"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="V3E-QJ-Cmq">
-                                                                <rect key="frame" x="20" y="20" width="472.5" height="198"/>
+                                                                <rect key="frame" x="20" y="20" width="374" height="198"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kRB-rl-MCp">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="472.5" height="128"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="128"/>
                                                                         <subviews>
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezu-2Z-tlE">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
@@ -825,7 +823,7 @@
                                                                                 </connections>
                                                                             </button>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ttN-CJ-x2H">
-                                                                                <rect key="frame" x="40" y="0.0" width="432.5" height="50"/>
+                                                                                <rect key="frame" x="40" y="0.0" width="334" height="50"/>
                                                                                 <subviews>
                                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="72B-zE-LXX">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
@@ -888,7 +886,7 @@
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     </stackView>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDJ-SG-Dzq" customClass="RoundedButton" customModule="Cinemax" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="148" width="472.5" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="148" width="374" height="50"/>
                                                                         <color key="backgroundColor" name="AppBlue"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="50" id="Ewg-SR-rzw"/>
@@ -1130,20 +1128,6 @@
             <point key="canvasLocation" x="2085" y="60.2112676056338"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="LBs-37-t6a">
-            <size key="intrinsicContentSize" width="66.5" height="38"/>
-        </designable>
-        <designable name="r2g-My-rWb">
-            <size key="intrinsicContentSize" width="95" height="38"/>
-        </designable>
-        <designable name="tDJ-SG-Dzq">
-            <size key="intrinsicContentSize" width="95" height="38"/>
-        </designable>
-        <designable name="wYN-DO-oO0">
-            <size key="intrinsicContentSize" width="73.5" height="38"/>
-        </designable>
-    </designables>
     <resources>
         <image name="EyeBtnClose" width="24" height="24.5"/>
         <image name="GoogleBtn" width="69" height="69"/>
@@ -1157,9 +1141,6 @@
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

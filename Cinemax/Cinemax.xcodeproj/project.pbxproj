@@ -13,7 +13,6 @@
 		1100DBA62D7379A100CA4797 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBA52D7379A100CA4797 /* FirebaseInAppMessaging-Beta */; };
 		1100DBA82D7379A100CA4797 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBA72D7379A100CA4797 /* FirebaseMessaging */; };
 		1100DBAA2D7379A100CA4797 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBA92D7379A100CA4797 /* FirebaseStorage */; };
-		1100DBB02D737A6200CA4797 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBAF2D737A6200CA4797 /* RealmSwift */; };
 		1100DBB32D737A9C00CA4797 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBB22D737A9C00CA4797 /* RxDataSources */; };
 		1100DBB62D737AB700CA4797 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBB52D737AB700CA4797 /* RxCocoa */; };
 		1100DBB82D737AB700CA4797 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBB72D737AB700CA4797 /* RxSwift */; };
@@ -179,8 +178,6 @@
 		A064162A2BEB9801004B4FA1 /* CustomPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06416292BEB9801004B4FA1 /* CustomPopupVC.swift */; };
 		A06660442BCD45130072E7EB /* UserDataRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06660432BCD45130072E7EB /* UserDataRepositoryManager.swift */; };
 		A08023642BD262E600E65A27 /* WebImgUrlFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08023632BD262E600E65A27 /* WebImgUrlFactory.swift */; };
-		A083921F2BD292FC00FD594F /* RealmDataRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083921E2BD292FC00FD594F /* RealmDataRepositoryManager.swift */; };
-		A08392222BD295BE00FD594F /* RealmMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08392212BD295BE00FD594F /* RealmMoviesModel.swift */; };
 		A086B51D2BE236A7004DAC55 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A086B51C2BE236A7004DAC55 /* Observable.swift */; };
 		FA7493252C494C06006D9AB9 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7493242C494C06006D9AB9 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
@@ -368,8 +365,6 @@
 		A06416292BEB9801004B4FA1 /* CustomPopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPopupVC.swift; sourceTree = "<group>"; };
 		A06660432BCD45130072E7EB /* UserDataRepositoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataRepositoryManager.swift; sourceTree = "<group>"; };
 		A08023632BD262E600E65A27 /* WebImgUrlFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImgUrlFactory.swift; sourceTree = "<group>"; };
-		A083921E2BD292FC00FD594F /* RealmDataRepositoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataRepositoryManager.swift; sourceTree = "<group>"; };
-		A08392212BD295BE00FD594F /* RealmMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmMoviesModel.swift; sourceTree = "<group>"; };
 		A086B51C2BE236A7004DAC55 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		D987C6D4255C8CC577EF4057 /* Pods-Cinemax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinemax.debug.xcconfig"; path = "Target Support Files/Pods-Cinemax/Pods-Cinemax.debug.xcconfig"; sourceTree = "<group>"; };
 		ED17B14353823C29F0F4B026 /* Pods_Cinemax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cinemax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -388,7 +383,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1100DBB02D737A6200CA4797 /* RealmSwift in Frameworks */,
 				1100DBA82D7379A100CA4797 /* FirebaseMessaging in Frameworks */,
 				1150E5032D737F6300C9CABD /* NVActivityIndicatorView in Frameworks */,
 				1100DBB62D737AB700CA4797 /* RxCocoa in Frameworks */,
@@ -1051,7 +1045,6 @@
 		13BA5F732B627E09005EDA19 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				A083921D2BD2921500FD594F /* RealmDataRepository */,
 				A06660422BCD44F20072E7EB /* UserDataRepository */,
 				137EF2022BBEBC6C000C3A5C /* CoreDataRepository */,
 				13BA5F742B627E20005EDA19 /* UserdefaultRepository */,
@@ -1204,31 +1197,6 @@
 			path = WebImgUrlFactory;
 			sourceTree = "<group>";
 		};
-		A083921D2BD2921500FD594F /* RealmDataRepository */ = {
-			isa = PBXGroup;
-			children = (
-				A08392202BD2959B00FD594F /* Model */,
-				A08392232BD295DA00FD594F /* RealmDataRepositoryManager */,
-			);
-			path = RealmDataRepository;
-			sourceTree = "<group>";
-		};
-		A08392202BD2959B00FD594F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A08392212BD295BE00FD594F /* RealmMoviesModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A08392232BD295DA00FD594F /* RealmDataRepositoryManager */ = {
-			isa = PBXGroup;
-			children = (
-				A083921E2BD292FC00FD594F /* RealmDataRepositoryManager.swift */,
-			);
-			path = RealmDataRepositoryManager;
-			sourceTree = "<group>";
-		};
 		A0C0E6682BD67F4C00A6DE30 /* CustomPopup */ = {
 			isa = PBXGroup;
 			children = (
@@ -1291,7 +1259,6 @@
 				1100DBA52D7379A100CA4797 /* FirebaseInAppMessaging-Beta */,
 				1100DBA72D7379A100CA4797 /* FirebaseMessaging */,
 				1100DBA92D7379A100CA4797 /* FirebaseStorage */,
-				1100DBAF2D737A6200CA4797 /* RealmSwift */,
 				1100DBB22D737A9C00CA4797 /* RxDataSources */,
 				1100DBB52D737AB700CA4797 /* RxCocoa */,
 				1100DBB72D737AB700CA4797 /* RxSwift */,
@@ -1337,7 +1304,6 @@
 			mainGroup = 139C22452B6126F60082DBDD;
 			packageReferences = (
 				1100DB9E2D7379A100CA4797 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				1100DBAE2D737A6200CA4797 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				1100DBB12D737A9C00CA4797 /* XCRemoteSwiftPackageReference "RxDataSources" */,
 				1100DBB42D737AB700CA4797 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				1100DBB92D737AD000CA4797 /* XCRemoteSwiftPackageReference "YPImagePicker" */,
@@ -1550,8 +1516,6 @@
 				13ADC99D2BBD6C27000D48D0 /* GenresVC.swift in Sources */,
 				136B58632BB594EF00D903B5 /* TVShowSimilarCollectionCell.swift in Sources */,
 				13374AF82BA335A2005E2BCA /* DetailVCBuilder.swift in Sources */,
-				A08392222BD295BE00FD594F /* RealmMoviesModel.swift in Sources */,
-				A083921F2BD292FC00FD594F /* RealmDataRepositoryManager.swift in Sources */,
 				13C74DF32B6B975F009CA6DB /* ProfileVCRouter.swift in Sources */,
 				13197DFE2BB2D64C00463D4B /* TVShowsResponseModel.swift in Sources */,
 				13C74DFA2B6B9FE4009CA6DB /* UserServerModel.swift in Sources */,
@@ -1867,14 +1831,6 @@
 				minimumVersion = 11.9.0;
 			};
 		};
-		1100DBAE2D737A6200CA4797 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 		1100DBB12D737A9C00CA4797 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources.git";
@@ -1963,11 +1919,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1100DB9E2D7379A100CA4797 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
-		};
-		1100DBAF2D737A6200CA4797 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1100DBAE2D737A6200CA4797 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
 		};
 		1100DBB22D737A9C00CA4797 /* RxDataSources */ = {
 			isa = XCSwiftPackageProductDependency;
