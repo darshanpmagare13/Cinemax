@@ -102,7 +102,11 @@ open class FSPageControl: UIControl {
     }
     
     open override func layoutSublayers(of layer: CALayer) {
-        super.layoutSublayers(of: layer)
+        if #available(iOS 10.0, *) {
+            super.layoutSublayers(of: layer)
+        } else {
+            // Fallback on earlier versions
+        }
         
         let diameter = self.itemSpacing
         let spacing = self.interitemSpacing

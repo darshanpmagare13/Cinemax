@@ -10,4 +10,5 @@ target 'Cinemax' do
   pod 'IQKeyboardManagerSwift'
   pod 'FSPagerView'
   pod 'YoutubePlayer-in-WKWebView'
+  pod 'DropDown'
 end

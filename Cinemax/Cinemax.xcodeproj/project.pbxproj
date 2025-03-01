@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1100DBA02D7379A100CA4797 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DB9F2D7379A100CA4797 /* FirebaseAuth */; };
+		1100DBA22D7379A100CA4797 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBA12D7379A100CA4797 /* FirebaseDatabase */; };
+		1100DBA42D7379A100CA4797 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBA32D7379A100CA4797 /* FirebaseFirestore */; };
+		1100DBA62D7379A100CA4797 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBA52D7379A100CA4797 /* FirebaseInAppMessaging-Beta */; };
+		1100DBA82D7379A100CA4797 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBA72D7379A100CA4797 /* FirebaseMessaging */; };
+		1100DBAA2D7379A100CA4797 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBA92D7379A100CA4797 /* FirebaseStorage */; };
+		1100DBB02D737A6200CA4797 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBAF2D737A6200CA4797 /* RealmSwift */; };
+		1100DBB32D737A9C00CA4797 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBB22D737A9C00CA4797 /* RxDataSources */; };
+		1100DBB62D737AB700CA4797 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBB52D737AB700CA4797 /* RxCocoa */; };
+		1100DBB82D737AB700CA4797 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBB72D737AB700CA4797 /* RxSwift */; };
+		1100DBBB2D737AD000CA4797 /* YPImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBBA2D737AD000CA4797 /* YPImagePicker */; };
+		111B2F612D737E9D009849E4 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 111B2F602D737E9D009849E4 /* GoogleSignIn */; };
+		111B2F632D737E9D009849E4 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 111B2F622D737E9D009849E4 /* GoogleSignInSwift */; };
+		1150E5032D737F6300C9CABD /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 1150E5022D737F6300C9CABD /* NVActivityIndicatorView */; };
+		1150E5052D737F6300C9CABD /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 1150E5042D737F6300C9CABD /* NVActivityIndicatorViewExtended */; };
+		1154EBCF2D737FE2007CFDE6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1154EBCE2D737FE2007CFDE6 /* Alamofire */; };
+		118F19A12D737EF600A8BCE0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 118F19A02D737EF600A8BCE0 /* Kingfisher */; };
 		13197DFE2BB2D64C00463D4B /* TVShowsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13197DFD2BB2D64C00463D4B /* TVShowsResponseModel.swift */; };
 		13197E002BB2D75200463D4B /* TVShowDetailsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13197DFF2BB2D75200463D4B /* TVShowDetailsResponseModel.swift */; };
 		13197E032BB2F32400463D4B /* TVShowsTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13197E022BB2F32400463D4B /* TVShowsTableViewCell2.swift */; };
 		13197E062BB303D200463D4B /* TVShowsTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13197E052BB303D200463D4B /* TVShowsTableViewCell1.swift */; };
 		131A9B342B6A1469007A4D55 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A9B332B6A1469007A4D55 /* Alert.swift */; };
-		131A9B372B6A1760007A4D55 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 131A9B362B6A1760007A4D55 /* NVActivityIndicatorView */; };
-		131A9B392B6A1760007A4D55 /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 131A9B382B6A1760007A4D55 /* NVActivityIndicatorViewExtended */; };
 		131A9B3B2B6A1AE2007A4D55 /* LoaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A9B3A2B6A1AE2007A4D55 /* LoaderVC.swift */; };
 		131A9B3F2B6A1FFC007A4D55 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A9B3E2B6A1FFC007A4D55 /* Loader.swift */; };
 		131A9B422B6A2509007A4D55 /* LoaderTypes.gif in Resources */ = {isa = PBXBuildFile; fileRef = 131A9B412B6A2509007A4D55 /* LoaderTypes.gif */; };
@@ -31,7 +46,6 @@
 		13305D422B721750007B74D4 /* HomeVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13305D412B721750007B74D4 /* HomeVCPresenter.swift */; };
 		13305D442B721760007B74D4 /* HomeVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13305D432B721760007B74D4 /* HomeVCRouter.swift */; };
 		13305D482B723F29007B74D4 /* UpcomingMoviesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13305D472B723F29007B74D4 /* UpcomingMoviesCell.swift */; };
-		13305D4B2B724A41007B74D4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 13305D4A2B724A41007B74D4 /* Kingfisher */; };
 		13305D4F2B7263D7007B74D4 /* MoviesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13305D4D2B7263D7007B74D4 /* MoviesCell.swift */; };
 		13305D502B7263D7007B74D4 /* MoviesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13305D4E2B7263D7007B74D4 /* MoviesCell.xib */; };
 		13305D542B726571007B74D4 /* MoviesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13305D522B726571007B74D4 /* MoviesCollectionViewCell.swift */; };
@@ -85,17 +99,12 @@
 		1389E5552BB4501F00884FF3 /* TVShowCastResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1389E5542BB4501F00884FF3 /* TVShowCastResponseModel.swift */; };
 		1389E5592BB45A1000884FF3 /* ActorsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1389E5572BB45A1000884FF3 /* ActorsCollectionViewCell.swift */; };
 		1389E55A2BB45A1000884FF3 /* ActorsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1389E5582BB45A1000884FF3 /* ActorsCollectionViewCell.xib */; };
-		139531CD2B97403300B2BCAA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 139531CC2B97403300B2BCAA /* Alamofire */; };
 		139531D22B9746ED00B2BCAA /* HttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139531D02B9746ED00B2BCAA /* HttpRouter.swift */; };
 		139531D32B9746ED00B2BCAA /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139531D12B9746ED00B2BCAA /* HttpService.swift */; };
 		139531D62B97471E00B2BCAA /* MoviesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139531D52B97471E00B2BCAA /* MoviesRouter.swift */; };
 		139531D82B97489100B2BCAA /* MoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139531D72B97489100B2BCAA /* MoviesService.swift */; };
 		139531DA2B97496A00B2BCAA /* MoviesServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139531D92B97496A00B2BCAA /* MoviesServiceManager.swift */; };
-		1398F0A92B68BB9200D58906 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 1398F0A82B68BB9200D58906 /* GoogleSignIn */; };
-		1398F0AB2B68BB9200D58906 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1398F0AA2B68BB9200D58906 /* GoogleSignInSwift */; };
 		1398F0BC2B68D1F100D58906 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1398F0BB2B68D1F100D58906 /* GoogleService-Info.plist */; };
-		1398F0C02B68EABC00D58906 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1398F0BF2B68EABC00D58906 /* RxCocoa */; };
-		1398F0C22B68EABC00D58906 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1398F0C12B68EABC00D58906 /* RxSwift */; };
 		1398F0C42B68EBB000D58906 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1398F0C32B68EBB000D58906 /* String+Extensions.swift */; };
 		139C22522B6126F60082DBDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139C22512B6126F60082DBDD /* AppDelegate.swift */; };
 		139C22542B6126F60082DBDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139C22532B6126F60082DBDD /* SceneDelegate.swift */; };
@@ -139,7 +148,6 @@
 		13B1E6482B6D0E37003DD382 /* EditProfileVCBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B1E6472B6D0E37003DD382 /* EditProfileVCBuilder.swift */; };
 		13B1E64A2B6D0FF1003DD382 /* EditProfileVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B1E6492B6D0FF1003DD382 /* EditProfileVCInteractor.swift */; };
 		13B1E64C2B6D0FFF003DD382 /* EditProfileVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B1E64B2B6D0FFF003DD382 /* EditProfileVCPresenter.swift */; };
-		13B1E64F2B6D1D96003DD382 /* YPImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 13B1E64E2B6D1D96003DD382 /* YPImagePicker */; };
 		13B1E6512B6D1E3C003DD382 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B1E6502B6D1E3C003DD382 /* UIViewController+Extensions.swift */; };
 		13BA5F762B627E43005EDA19 /* UserdefaultRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BA5F752B627E43005EDA19 /* UserdefaultRepository.swift */; };
 		13BA5F782B627F8C005EDA19 /* UserdefaultRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BA5F772B627F8C005EDA19 /* UserdefaultRepositoryManager.swift */; };
@@ -148,8 +156,6 @@
 		13C7139F2BA1C1D2009DA2A5 /* MasterMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7139E2BA1C1D2009DA2A5 /* MasterMovieModel.swift */; };
 		13C713A12BA1C3E6009DA2A5 /* MovieResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C713A02BA1C3E6009DA2A5 /* MovieResultModel.swift */; };
 		13C713A32BA1C54A009DA2A5 /* MovieDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C713A22BA1C54A009DA2A5 /* MovieDetailsModel.swift */; };
-		13C713A62BA1D66C009DA2A5 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 13C713A52BA1D66C009DA2A5 /* Differentiator */; };
-		13C713A82BA1D66C009DA2A5 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 13C713A72BA1D66C009DA2A5 /* RxDataSources */; };
 		13C74DDC2B6B621E009CA6DB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C74DDB2B6B621E009CA6DB /* HomeVC.swift */; };
 		13C74DDE2B6B6252009CA6DB /* HomeVCBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C74DDD2B6B6252009CA6DB /* HomeVCBuilder.swift */; };
 		13C74DE12B6B62D9009CA6DB /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C74DE02B6B62D9009CA6DB /* SearchVC.swift */; };
@@ -173,17 +179,10 @@
 		A064162A2BEB9801004B4FA1 /* CustomPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06416292BEB9801004B4FA1 /* CustomPopupVC.swift */; };
 		A06660442BCD45130072E7EB /* UserDataRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06660432BCD45130072E7EB /* UserDataRepositoryManager.swift */; };
 		A08023642BD262E600E65A27 /* WebImgUrlFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08023632BD262E600E65A27 /* WebImgUrlFactory.swift */; };
-		A083921A2BD2919600FD594F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A08392192BD2919600FD594F /* Realm */; };
-		A083921C2BD2919600FD594F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A083921B2BD2919600FD594F /* RealmSwift */; };
 		A083921F2BD292FC00FD594F /* RealmDataRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083921E2BD292FC00FD594F /* RealmDataRepositoryManager.swift */; };
 		A08392222BD295BE00FD594F /* RealmMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08392212BD295BE00FD594F /* RealmMoviesModel.swift */; };
 		A086B51D2BE236A7004DAC55 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A086B51C2BE236A7004DAC55 /* Observable.swift */; };
-		A0EE0D422BCFE4B4006DB7C7 /* DropDown in Frameworks */ = {isa = PBXBuildFile; productRef = A0EE0D412BCFE4B4006DB7C7 /* DropDown */; };
 		FA7493252C494C06006D9AB9 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7493242C494C06006D9AB9 /* UIView+Extensions.swift */; };
-		FAD6AC8D2BC947A40023E92F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FAD6AC8C2BC947A40023E92F /* FirebaseAuth */; };
-		FAD6AC8F2BC947A40023E92F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FAD6AC8E2BC947A40023E92F /* FirebaseDatabase */; };
-		FAD6AC912BC947A40023E92F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FAD6AC902BC947A40023E92F /* FirebaseFirestore */; };
-		FAD6AC932BC947A40023E92F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FAD6AC922BC947A40023E92F /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -389,25 +388,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A083921C2BD2919600FD594F /* RealmSwift in Frameworks */,
-				A0EE0D422BCFE4B4006DB7C7 /* DropDown in Frameworks */,
-				13C713A62BA1D66C009DA2A5 /* Differentiator in Frameworks */,
-				1398F0C02B68EABC00D58906 /* RxCocoa in Frameworks */,
-				131A9B392B6A1760007A4D55 /* NVActivityIndicatorViewExtended in Frameworks */,
-				1398F0AB2B68BB9200D58906 /* GoogleSignInSwift in Frameworks */,
+				1100DBB02D737A6200CA4797 /* RealmSwift in Frameworks */,
+				1100DBA82D7379A100CA4797 /* FirebaseMessaging in Frameworks */,
+				1150E5032D737F6300C9CABD /* NVActivityIndicatorView in Frameworks */,
+				1100DBB62D737AB700CA4797 /* RxCocoa in Frameworks */,
+				111B2F632D737E9D009849E4 /* GoogleSignInSwift in Frameworks */,
+				1100DBA22D7379A100CA4797 /* FirebaseDatabase in Frameworks */,
+				1100DBA42D7379A100CA4797 /* FirebaseFirestore in Frameworks */,
+				111B2F612D737E9D009849E4 /* GoogleSignIn in Frameworks */,
+				1150E5052D737F6300C9CABD /* NVActivityIndicatorViewExtended in Frameworks */,
+				1154EBCF2D737FE2007CFDE6 /* Alamofire in Frameworks */,
 				17BDAC2399389208A2BF18A4 /* Pods_Cinemax.framework in Frameworks */,
-				A083921A2BD2919600FD594F /* Realm in Frameworks */,
-				FAD6AC932BC947A40023E92F /* FirebaseStorage in Frameworks */,
-				1398F0A92B68BB9200D58906 /* GoogleSignIn in Frameworks */,
-				139531CD2B97403300B2BCAA /* Alamofire in Frameworks */,
-				13305D4B2B724A41007B74D4 /* Kingfisher in Frameworks */,
-				FAD6AC912BC947A40023E92F /* FirebaseFirestore in Frameworks */,
-				131A9B372B6A1760007A4D55 /* NVActivityIndicatorView in Frameworks */,
-				13B1E64F2B6D1D96003DD382 /* YPImagePicker in Frameworks */,
-				FAD6AC8D2BC947A40023E92F /* FirebaseAuth in Frameworks */,
-				13C713A82BA1D66C009DA2A5 /* RxDataSources in Frameworks */,
-				FAD6AC8F2BC947A40023E92F /* FirebaseDatabase in Frameworks */,
-				1398F0C22B68EABC00D58906 /* RxSwift in Frameworks */,
+				1100DBAA2D7379A100CA4797 /* FirebaseStorage in Frameworks */,
+				1100DBBB2D737AD000CA4797 /* YPImagePicker in Frameworks */,
+				1100DBB32D737A9C00CA4797 /* RxDataSources in Frameworks */,
+				1100DBA02D7379A100CA4797 /* FirebaseAuth in Frameworks */,
+				1100DBA62D7379A100CA4797 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				118F19A12D737EF600A8BCE0 /* Kingfisher in Frameworks */,
+				1100DBB82D737AB700CA4797 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1287,24 +1285,23 @@
 			);
 			name = Cinemax;
 			packageProductDependencies = (
-				1398F0A82B68BB9200D58906 /* GoogleSignIn */,
-				1398F0AA2B68BB9200D58906 /* GoogleSignInSwift */,
-				1398F0BF2B68EABC00D58906 /* RxCocoa */,
-				1398F0C12B68EABC00D58906 /* RxSwift */,
-				131A9B362B6A1760007A4D55 /* NVActivityIndicatorView */,
-				131A9B382B6A1760007A4D55 /* NVActivityIndicatorViewExtended */,
-				13B1E64E2B6D1D96003DD382 /* YPImagePicker */,
-				13305D4A2B724A41007B74D4 /* Kingfisher */,
-				139531CC2B97403300B2BCAA /* Alamofire */,
-				13C713A52BA1D66C009DA2A5 /* Differentiator */,
-				13C713A72BA1D66C009DA2A5 /* RxDataSources */,
-				FAD6AC8C2BC947A40023E92F /* FirebaseAuth */,
-				FAD6AC8E2BC947A40023E92F /* FirebaseDatabase */,
-				FAD6AC902BC947A40023E92F /* FirebaseFirestore */,
-				FAD6AC922BC947A40023E92F /* FirebaseStorage */,
-				A0EE0D412BCFE4B4006DB7C7 /* DropDown */,
-				A08392192BD2919600FD594F /* Realm */,
-				A083921B2BD2919600FD594F /* RealmSwift */,
+				1100DB9F2D7379A100CA4797 /* FirebaseAuth */,
+				1100DBA12D7379A100CA4797 /* FirebaseDatabase */,
+				1100DBA32D7379A100CA4797 /* FirebaseFirestore */,
+				1100DBA52D7379A100CA4797 /* FirebaseInAppMessaging-Beta */,
+				1100DBA72D7379A100CA4797 /* FirebaseMessaging */,
+				1100DBA92D7379A100CA4797 /* FirebaseStorage */,
+				1100DBAF2D737A6200CA4797 /* RealmSwift */,
+				1100DBB22D737A9C00CA4797 /* RxDataSources */,
+				1100DBB52D737AB700CA4797 /* RxCocoa */,
+				1100DBB72D737AB700CA4797 /* RxSwift */,
+				1100DBBA2D737AD000CA4797 /* YPImagePicker */,
+				111B2F602D737E9D009849E4 /* GoogleSignIn */,
+				111B2F622D737E9D009849E4 /* GoogleSignInSwift */,
+				118F19A02D737EF600A8BCE0 /* Kingfisher */,
+				1150E5022D737F6300C9CABD /* NVActivityIndicatorView */,
+				1150E5042D737F6300C9CABD /* NVActivityIndicatorViewExtended */,
+				1154EBCE2D737FE2007CFDE6 /* Alamofire */,
 			);
 			productName = Cinemax;
 			productReference = 139C224E2B6126F60082DBDD /* Cinemax.app */;
@@ -1339,16 +1336,15 @@
 			);
 			mainGroup = 139C22452B6126F60082DBDD;
 			packageReferences = (
-				1398F0A72B68BB9200D58906 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
-				1398F0BE2B68EABC00D58906 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				131A9B352B6A1760007A4D55 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
-				13B1E64D2B6D1D96003DD382 /* XCRemoteSwiftPackageReference "YPImagePicker" */,
-				13305D492B724A40007B74D4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				139531CB2B97403300B2BCAA /* XCRemoteSwiftPackageReference "Alamofire" */,
-				13C713A42BA1D66B009DA2A5 /* XCRemoteSwiftPackageReference "RxDataSources" */,
-				FAD6AC8B2BC947A40023E92F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				A0EE0D402BCFE4B4006DB7C7 /* XCRemoteSwiftPackageReference "DropDown" */,
-				A08392182BD2919500FD594F /* XCRemoteSwiftPackageReference "realm-swift" */,
+				1100DB9E2D7379A100CA4797 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				1100DBAE2D737A6200CA4797 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				1100DBB12D737A9C00CA4797 /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				1100DBB42D737AB700CA4797 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				1100DBB92D737AD000CA4797 /* XCRemoteSwiftPackageReference "YPImagePicker" */,
+				111B2F5F2D737E9D009849E4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				118F199F2D737EF600A8BCE0 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				1150E5012D737F6300C9CABD /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+				1154EBCD2D737FE2007CFDE6 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 139C224F2B6126F60082DBDD /* Products */;
 			projectDirPath = "";
@@ -1776,13 +1772,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M36758779V;
+				DEVELOPMENT_TEAM = L63F7HLTNK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cinemax/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1807,13 +1804,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M36758779V;
+				DEVELOPMENT_TEAM = L63F7HLTNK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cinemax/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1861,63 +1859,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		131A9B352B6A1760007A4D55 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+		1100DB9E2D7379A100CA4797 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
-			requirement = {
-				kind = exactVersion;
-				version = 5.1.1;
-			};
-		};
-		13305D492B724A40007B74D4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = exactVersion;
-				version = 7.9.1;
-			};
-		};
-		139531CB2B97403300B2BCAA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
+				minimumVersion = 11.9.0;
 			};
 		};
-		1398F0A72B68BB9200D58906 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		1398F0BE2B68EABC00D58906 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
-			requirement = {
-				kind = exactVersion;
-				version = 6.6.0;
-			};
-		};
-		13B1E64D2B6D1D96003DD382 /* XCRemoteSwiftPackageReference "YPImagePicker" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Yummypets/YPImagePicker.git";
-			requirement = {
-				kind = exactVersion;
-				version = 5.2.2;
-			};
-		};
-		13C713A42BA1D66B009DA2A5 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources.git";
-			requirement = {
-				kind = exactVersion;
-				version = 5.0.2;
-			};
-		};
-		A08392182BD2919500FD594F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+		1100DBAE2D737A6200CA4797 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
 			requirement = {
@@ -1925,114 +1875,149 @@
 				kind = branch;
 			};
 		};
-		A0EE0D402BCFE4B4006DB7C7 /* XCRemoteSwiftPackageReference "DropDown" */ = {
+		1100DBB12D737A9C00CA4797 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AssistoLab/DropDown.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		FAD6AC8B2BC947A40023E92F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 10.24.0;
+				minimumVersion = 5.0.2;
+			};
+		};
+		1100DBB42D737AB700CA4797 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+		1100DBB92D737AD000CA4797 /* XCRemoteSwiftPackageReference "YPImagePicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Yummypets/YPImagePicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.2;
+			};
+		};
+		111B2F5F2D737E9D009849E4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		1150E5012D737F6300C9CABD /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+		1154EBCD2D737FE2007CFDE6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		118F199F2D737EF600A8BCE0 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		131A9B362B6A1760007A4D55 /* NVActivityIndicatorView */ = {
+		1100DB9F2D7379A100CA4797 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 131A9B352B6A1760007A4D55 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
-			productName = NVActivityIndicatorView;
-		};
-		131A9B382B6A1760007A4D55 /* NVActivityIndicatorViewExtended */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 131A9B352B6A1760007A4D55 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
-			productName = NVActivityIndicatorViewExtended;
-		};
-		13305D4A2B724A41007B74D4 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 13305D492B724A40007B74D4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		139531CC2B97403300B2BCAA /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 139531CB2B97403300B2BCAA /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		1398F0A82B68BB9200D58906 /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1398F0A72B68BB9200D58906 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignIn;
-		};
-		1398F0AA2B68BB9200D58906 /* GoogleSignInSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1398F0A72B68BB9200D58906 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignInSwift;
-		};
-		1398F0BF2B68EABC00D58906 /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1398F0BE2B68EABC00D58906 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		1398F0C12B68EABC00D58906 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1398F0BE2B68EABC00D58906 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		13B1E64E2B6D1D96003DD382 /* YPImagePicker */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 13B1E64D2B6D1D96003DD382 /* XCRemoteSwiftPackageReference "YPImagePicker" */;
-			productName = YPImagePicker;
-		};
-		13C713A52BA1D66C009DA2A5 /* Differentiator */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 13C713A42BA1D66B009DA2A5 /* XCRemoteSwiftPackageReference "RxDataSources" */;
-			productName = Differentiator;
-		};
-		13C713A72BA1D66C009DA2A5 /* RxDataSources */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 13C713A42BA1D66B009DA2A5 /* XCRemoteSwiftPackageReference "RxDataSources" */;
-			productName = RxDataSources;
-		};
-		A08392192BD2919600FD594F /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A08392182BD2919500FD594F /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
-		};
-		A083921B2BD2919600FD594F /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A08392182BD2919500FD594F /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
-		A0EE0D412BCFE4B4006DB7C7 /* DropDown */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A0EE0D402BCFE4B4006DB7C7 /* XCRemoteSwiftPackageReference "DropDown" */;
-			productName = DropDown;
-		};
-		FAD6AC8C2BC947A40023E92F /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FAD6AC8B2BC947A40023E92F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 1100DB9E2D7379A100CA4797 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
-		FAD6AC8E2BC947A40023E92F /* FirebaseDatabase */ = {
+		1100DBA12D7379A100CA4797 /* FirebaseDatabase */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FAD6AC8B2BC947A40023E92F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 1100DB9E2D7379A100CA4797 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseDatabase;
 		};
-		FAD6AC902BC947A40023E92F /* FirebaseFirestore */ = {
+		1100DBA32D7379A100CA4797 /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FAD6AC8B2BC947A40023E92F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 1100DB9E2D7379A100CA4797 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
 		};
-		FAD6AC922BC947A40023E92F /* FirebaseStorage */ = {
+		1100DBA52D7379A100CA4797 /* FirebaseInAppMessaging-Beta */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FAD6AC8B2BC947A40023E92F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 1100DB9E2D7379A100CA4797 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		1100DBA72D7379A100CA4797 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1100DB9E2D7379A100CA4797 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		1100DBA92D7379A100CA4797 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1100DB9E2D7379A100CA4797 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		1100DBAF2D737A6200CA4797 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1100DBAE2D737A6200CA4797 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		1100DBB22D737A9C00CA4797 /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1100DBB12D737A9C00CA4797 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+		1100DBB52D737AB700CA4797 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1100DBB42D737AB700CA4797 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		1100DBB72D737AB700CA4797 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1100DBB42D737AB700CA4797 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		1100DBBA2D737AD000CA4797 /* YPImagePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1100DBB92D737AD000CA4797 /* XCRemoteSwiftPackageReference "YPImagePicker" */;
+			productName = YPImagePicker;
+		};
+		111B2F602D737E9D009849E4 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 111B2F5F2D737E9D009849E4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		111B2F622D737E9D009849E4 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 111B2F5F2D737E9D009849E4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		1150E5022D737F6300C9CABD /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1150E5012D737F6300C9CABD /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+		1150E5042D737F6300C9CABD /* NVActivityIndicatorViewExtended */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1150E5012D737F6300C9CABD /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorViewExtended;
+		};
+		1154EBCE2D737FE2007CFDE6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1154EBCD2D737FE2007CFDE6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		118F19A02D737EF600A8BCE0 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 118F199F2D737EF600A8BCE0 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 

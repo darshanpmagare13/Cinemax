@@ -1,4 +1,5 @@
 PODS:
+  - DropDown (2.3.13)
   - FSPagerView (0.8.3)
   - IQKeyboardManagerSwift (6.5.16)
   - JXPageControl (0.1.5):
@@ -13,6 +14,7 @@ PODS:
   - YoutubePlayer-in-WKWebView (0.3.9)
 
 DEPENDENCIES:
+  - DropDown
   - FSPagerView
   - IQKeyboardManagerSwift
   - JXPageControl
@@ -20,17 +22,19 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - DropDown
     - FSPagerView
     - IQKeyboardManagerSwift
     - JXPageControl
     - YoutubePlayer-in-WKWebView
 
 SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
   IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
   JXPageControl: e9487b39e2e58fc17790833214f3b8e935bef98b
   YoutubePlayer-in-WKWebView: 2bfac1a51faec752a9ecf6e7019f13347aad4da0
 
-PODFILE CHECKSUM: 9693b63ac46ee4f43f866d3e09da65b05574c530
+PODFILE CHECKSUM: 19c5e93a2b94ebe289f2b53f4a98b745e417e342
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
