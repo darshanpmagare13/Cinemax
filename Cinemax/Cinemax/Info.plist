@@ -9,7 +9,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.479615233563-1eqo18g3h3g0m5fqnech0ljksamatbf7</string>
+				<string>com.googleusercontent.apps.901545614460-tlfdtbffhilv3jvul8v8b86s59qbb470</string>
 			</array>
 		</dict>
 	</array>
@@ -32,9 +32,5 @@
 			</array>
 		</dict>
 	</dict>
-	<key>NSCameraUsageDescription</key>
-	<string>we need your permission to access camera</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>we need your permission to access Library</string>
 </dict>
 </plist>

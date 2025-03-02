@@ -19,10 +19,12 @@
 		1100DBBB2D737AD000CA4797 /* YPImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 1100DBBA2D737AD000CA4797 /* YPImagePicker */; };
 		111B2F612D737E9D009849E4 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 111B2F602D737E9D009849E4 /* GoogleSignIn */; };
 		111B2F632D737E9D009849E4 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 111B2F622D737E9D009849E4 /* GoogleSignInSwift */; };
+		113BF48F2D739B0A0042A8F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 113BF48E2D739B0A0042A8F8 /* GoogleService-Info.plist */; };
 		1150E5032D737F6300C9CABD /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 1150E5022D737F6300C9CABD /* NVActivityIndicatorView */; };
 		1150E5052D737F6300C9CABD /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 1150E5042D737F6300C9CABD /* NVActivityIndicatorViewExtended */; };
 		1154EBCF2D737FE2007CFDE6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1154EBCE2D737FE2007CFDE6 /* Alamofire */; };
 		118F19A12D737EF600A8BCE0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 118F19A02D737EF600A8BCE0 /* Kingfisher */; };
+		11CC481E2D743A27007867CC /* Cloudinary in Frameworks */ = {isa = PBXBuildFile; productRef = 11CC481D2D743A27007867CC /* Cloudinary */; };
 		13197DFE2BB2D64C00463D4B /* TVShowsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13197DFD2BB2D64C00463D4B /* TVShowsResponseModel.swift */; };
 		13197E002BB2D75200463D4B /* TVShowDetailsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13197DFF2BB2D75200463D4B /* TVShowDetailsResponseModel.swift */; };
 		13197E032BB2F32400463D4B /* TVShowsTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13197E022BB2F32400463D4B /* TVShowsTableViewCell2.swift */; };
@@ -103,7 +105,6 @@
 		139531D62B97471E00B2BCAA /* MoviesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139531D52B97471E00B2BCAA /* MoviesRouter.swift */; };
 		139531D82B97489100B2BCAA /* MoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139531D72B97489100B2BCAA /* MoviesService.swift */; };
 		139531DA2B97496A00B2BCAA /* MoviesServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139531D92B97496A00B2BCAA /* MoviesServiceManager.swift */; };
-		1398F0BC2B68D1F100D58906 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1398F0BB2B68D1F100D58906 /* GoogleService-Info.plist */; };
 		1398F0C42B68EBB000D58906 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1398F0C32B68EBB000D58906 /* String+Extensions.swift */; };
 		139C22522B6126F60082DBDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139C22512B6126F60082DBDD /* AppDelegate.swift */; };
 		139C22542B6126F60082DBDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139C22532B6126F60082DBDD /* SceneDelegate.swift */; };
@@ -206,6 +207,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		113BF48E2D739B0A0042A8F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		13197DFD2BB2D64C00463D4B /* TVShowsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsResponseModel.swift; sourceTree = "<group>"; };
 		13197DFF2BB2D75200463D4B /* TVShowDetailsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailsResponseModel.swift; sourceTree = "<group>"; };
 		13197E022BB2F32400463D4B /* TVShowsTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsTableViewCell2.swift; sourceTree = "<group>"; };
@@ -287,7 +289,6 @@
 		139531D52B97471E00B2BCAA /* MoviesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRouter.swift; sourceTree = "<group>"; };
 		139531D72B97489100B2BCAA /* MoviesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesService.swift; sourceTree = "<group>"; };
 		139531D92B97496A00B2BCAA /* MoviesServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesServiceManager.swift; sourceTree = "<group>"; };
-		1398F0BB2B68D1F100D58906 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1398F0BD2B68E1F600D58906 /* Cinemax.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cinemax.entitlements; sourceTree = "<group>"; };
 		1398F0C32B68EBB000D58906 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		139C224E2B6126F60082DBDD /* Cinemax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinemax.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -397,6 +398,7 @@
 				1100DBBB2D737AD000CA4797 /* YPImagePicker in Frameworks */,
 				1100DBB32D737A9C00CA4797 /* RxDataSources in Frameworks */,
 				1100DBA02D7379A100CA4797 /* FirebaseAuth in Frameworks */,
+				11CC481E2D743A27007867CC /* Cloudinary in Frameworks */,
 				1100DBA62D7379A100CA4797 /* FirebaseInAppMessaging-Beta in Frameworks */,
 				118F19A12D737EF600A8BCE0 /* Kingfisher in Frameworks */,
 				1100DBB82D737AB700CA4797 /* RxSwift in Frameworks */,
@@ -758,7 +760,7 @@
 				139C22722B6129270082DBDD /* Screens */,
 				139C22662B61279A0082DBDD /* Resources */,
 				139C225F2B6126F80082DBDD /* Info.plist */,
-				1398F0BB2B68D1F100D58906 /* GoogleService-Info.plist */,
+				113BF48E2D739B0A0042A8F8 /* GoogleService-Info.plist */,
 			);
 			path = Cinemax;
 			sourceTree = "<group>";
@@ -1269,6 +1271,7 @@
 				1150E5022D737F6300C9CABD /* NVActivityIndicatorView */,
 				1150E5042D737F6300C9CABD /* NVActivityIndicatorViewExtended */,
 				1154EBCE2D737FE2007CFDE6 /* Alamofire */,
+				11CC481D2D743A27007867CC /* Cloudinary */,
 			);
 			productName = Cinemax;
 			productReference = 139C224E2B6126F60082DBDD /* Cinemax.app */;
@@ -1311,6 +1314,7 @@
 				118F199F2D737EF600A8BCE0 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				1150E5012D737F6300C9CABD /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
 				1154EBCD2D737FE2007CFDE6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				11CC481C2D743A27007867CC /* XCRemoteSwiftPackageReference "cloudinary_ios" */,
 			);
 			productRefGroup = 139C224F2B6126F60082DBDD /* Products */;
 			projectDirPath = "";
@@ -1345,11 +1349,11 @@
 				13ADC9972BBD6BCD000D48D0 /* Genres.storyboard in Resources */,
 				139C227B2B612D270082DBDD /* Home.storyboard in Resources */,
 				132C2B2E2BA99183000A00F4 /* MoviesCollectionViewDetailCell.xib in Resources */,
+				113BF48F2D739B0A0042A8F8 /* GoogleService-Info.plist in Resources */,
 				139C227E2B612D4C0082DBDD /* Search.storyboard in Resources */,
 				1389E55A2BB45A1000884FF3 /* ActorsCollectionViewCell.xib in Resources */,
 				13305D552B726571007B74D4 /* MoviesCollectionViewCell.xib in Resources */,
 				139C22842B612D8D0082DBDD /* Profile.storyboard in Resources */,
-				1398F0BC2B68D1F100D58906 /* GoogleService-Info.plist in Resources */,
 				139C225E2B6126F80082DBDD /* LaunchScreen.storyboard in Resources */,
 				139C225B2B6126F80082DBDD /* Assets.xcassets in Resources */,
 			);
@@ -1739,6 +1743,8 @@
 				DEVELOPMENT_TEAM = L63F7HLTNK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cinemax/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "we need your permission to access camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "we need your permission to access Library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1749,7 +1755,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Cinemaxs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cinemax.Darshanmagare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1771,6 +1777,8 @@
 				DEVELOPMENT_TEAM = L63F7HLTNK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cinemax/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "we need your permission to access camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "we need your permission to access Library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1781,7 +1789,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Cinemaxs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cinemax.Darshanmagare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1887,6 +1895,14 @@
 				minimumVersion = 8.2.0;
 			};
 		};
+		11CC481C2D743A27007867CC /* XCRemoteSwiftPackageReference "cloudinary_ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cloudinary/cloudinary_ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1969,6 +1985,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 118F199F2D737EF600A8BCE0 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		11CC481D2D743A27007867CC /* Cloudinary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11CC481C2D743A27007867CC /* XCRemoteSwiftPackageReference "cloudinary_ios" */;
+			productName = Cloudinary;
 		};
 /* End XCSwiftPackageProductDependency section */
 

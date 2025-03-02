@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -37,14 +37,14 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qie-PG-pon" userLabel="TabView">
                                                 <rect key="frame" x="0.0" y="7" width="414" height="60"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="hhz-lc-CfC">
-                                                        <rect key="frame" x="-66.5" y="5" width="547" height="50"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hhz-lc-CfC">
+                                                        <rect key="frame" x="-83" y="5" width="580" height="50"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0AF-g3-dlf" customClass="RoundedCornerView" customModule="Cinemax" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="0.0" width="91.5" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="M9u-51-wcr">
-                                                                        <rect key="frame" x="10" y="5" width="71.5" height="40"/>
+                                                                        <rect key="frame" x="10" y="5" width="80" height="40"/>
                                                                         <subviews>
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEg-E4-QUu">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="20" height="40"/>
@@ -53,15 +53,15 @@
                                                                                 </constraints>
                                                                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="plain" image="HomeBtn"/>
+                                                                                <buttonConfiguration key="configuration" style="plain" image="HomeBtn" title=" "/>
                                                                                 <connections>
                                                                                     <action selector="tabBtnPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="9mg-U2-54Z"/>
                                                                                 </connections>
                                                                             </button>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="HvB-Z0-FMp">
-                                                                                <rect key="frame" x="25" y="0.0" width="46.5" height="40"/>
+                                                                                <rect key="frame" x="25" y="0.0" width="55" height="40"/>
                                                                                 <constraints>
-                                                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="50" id="15G-nj-Hmc"/>
+                                                                                    <constraint firstAttribute="width" constant="55" id="15G-nj-Hmc"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -90,10 +90,10 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n7d-C7-YZc" customClass="RoundedCornerView" customModule="Cinemax" customModuleProvider="target">
-                                                                <rect key="frame" x="106.5" y="0.0" width="96.5" height="50"/>
+                                                                <rect key="frame" x="110" y="0.0" width="105" height="50"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="yOz-dA-Fvq">
-                                                                        <rect key="frame" x="10" y="5" width="76.5" height="40"/>
+                                                                        <rect key="frame" x="10" y="5" width="85" height="40"/>
                                                                         <subviews>
                                                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1oJ-S0-cEP">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="20" height="40"/>
@@ -102,15 +102,15 @@
                                                                                 </constraints>
                                                                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="plain" image="SearchBtn"/>
+                                                                                <buttonConfiguration key="configuration" style="plain" image="SearchBtn" title=" "/>
                                                                                 <connections>
                                                                                     <action selector="tabBtnPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ktj-CR-n8a"/>
                                                                                 </connections>
                                                                             </button>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="L7F-ci-i9H">
-                                                                                <rect key="frame" x="25" y="0.0" width="51.5" height="40"/>
+                                                                                <rect key="frame" x="25" y="0.0" width="60" height="40"/>
                                                                                 <constraints>
-                                                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="55" id="Skh-L8-Lai"/>
+                                                                                    <constraint firstAttribute="width" constant="60" id="Skh-L8-Lai"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -139,10 +139,10 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ati-2h-EtU" customClass="RoundedCornerView" customModule="Cinemax" customModuleProvider="target">
-                                                                <rect key="frame" x="218" y="0.0" width="97.5" height="50"/>
+                                                                <rect key="frame" x="225" y="0.0" width="110" height="50"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="w2M-kT-JIW">
-                                                                        <rect key="frame" x="10" y="5" width="77.5" height="40"/>
+                                                                        <rect key="frame" x="10" y="5" width="90" height="40"/>
                                                                         <subviews>
                                                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pb1-No-bZM">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="20" height="40"/>
@@ -151,15 +151,15 @@
                                                                                 </constraints>
                                                                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="plain" image="text.justify" catalog="system"/>
+                                                                                <buttonConfiguration key="configuration" style="plain" image="text.justify" catalog="system" title=" "/>
                                                                                 <connections>
                                                                                     <action selector="tabBtnPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="aMe-a2-tHF"/>
                                                                                 </connections>
                                                                             </button>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genres" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="QP2-a8-yS2">
-                                                                                <rect key="frame" x="25" y="0.0" width="52.5" height="40"/>
+                                                                                <rect key="frame" x="25" y="0.0" width="65" height="40"/>
                                                                                 <constraints>
-                                                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="aJl-Ps-hNF"/>
+                                                                                    <constraint firstAttribute="width" constant="65" id="aJl-Ps-hNF"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -188,10 +188,10 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XyR-jh-Z8Z" customClass="RoundedCornerView" customModule="Cinemax" customModuleProvider="target">
-                                                                <rect key="frame" x="330.5" y="0.0" width="108.5" height="50"/>
+                                                                <rect key="frame" x="345" y="0.0" width="120" height="50"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ukz-v1-Wns">
-                                                                        <rect key="frame" x="10" y="5" width="88.5" height="40"/>
+                                                                        <rect key="frame" x="10" y="5" width="100" height="40"/>
                                                                         <subviews>
                                                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amq-XL-Phu">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="20" height="40"/>
@@ -200,15 +200,15 @@
                                                                                 </constraints>
                                                                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="plain" image="bookmark.fill" catalog="system"/>
+                                                                                <buttonConfiguration key="configuration" style="plain" image="bookmark.fill" catalog="system" title=" "/>
                                                                                 <connections>
                                                                                     <action selector="tabBtnPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="PtB-S4-tuh"/>
                                                                                 </connections>
                                                                             </button>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WishList" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="bfU-eX-ONa">
-                                                                                <rect key="frame" x="25" y="0.0" width="63.5" height="40"/>
+                                                                                <rect key="frame" x="25" y="0.0" width="75" height="40"/>
                                                                                 <constraints>
-                                                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="70" id="qty-Dc-wFp"/>
+                                                                                    <constraint firstAttribute="width" constant="75" id="qty-Dc-wFp"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -237,10 +237,10 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="piV-dY-5ph" customClass="RoundedCornerView" customModule="Cinemax" customModuleProvider="target">
-                                                                <rect key="frame" x="454" y="0.0" width="93" height="50"/>
+                                                                <rect key="frame" x="475" y="0.0" width="105" height="50"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="zvQ-MA-DAz">
-                                                                        <rect key="frame" x="10" y="5" width="73" height="40"/>
+                                                                        <rect key="frame" x="10" y="5" width="85" height="40"/>
                                                                         <subviews>
                                                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FS-c3-45B">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="20" height="40"/>
@@ -249,15 +249,15 @@
                                                                                 </constraints>
                                                                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="plain" image="PersonBtn"/>
+                                                                                <buttonConfiguration key="configuration" style="plain" image="PersonBtn" title=" "/>
                                                                                 <connections>
                                                                                     <action selector="tabBtnPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="3Es-aa-K6d"/>
                                                                                 </connections>
                                                                             </button>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="K0P-83-A8j">
-                                                                                <rect key="frame" x="25" y="0.0" width="48" height="40"/>
+                                                                                <rect key="frame" x="25" y="0.0" width="60" height="40"/>
                                                                                 <constraints>
-                                                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="55" id="P0W-3s-rAN"/>
+                                                                                    <constraint firstAttribute="width" constant="60" id="P0W-3s-rAN"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -338,8 +338,8 @@
         <image name="HomeBtn" width="19" height="17"/>
         <image name="PersonBtn" width="24" height="24"/>
         <image name="SearchBtn" width="24" height="24"/>
-        <image name="bookmark.fill" catalog="system" width="32" height="32"/>
-        <image name="text.justify" catalog="system" width="32" height="32"/>
+        <image name="bookmark.fill" catalog="system" width="110" height="128"/>
+        <image name="text.justify" catalog="system" width="128" height="101"/>
         <namedColor name="AppBlue">
             <color red="0.070588235294117646" green="0.80392156862745101" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

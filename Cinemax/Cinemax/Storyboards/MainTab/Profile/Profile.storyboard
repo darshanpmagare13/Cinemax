@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -68,7 +68,7 @@
                                                                             <constraint firstAttribute="width" constant="50" id="Q6b-Ms-sL1"/>
                                                                         </constraints>
                                                                         <state key="normal" title="Button"/>
-                                                                        <buttonConfiguration key="configuration" style="plain" image="EditBtn"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" image="EditBtn" title=" "/>
                                                                         <connections>
                                                                             <action selector="editBtnPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="wja-yp-YET"/>
                                                                         </connections>
@@ -218,7 +218,7 @@
                                                                                                     <constraint firstAttribute="height" constant="50" id="V5I-va-ExW"/>
                                                                                                 </constraints>
                                                                                                 <state key="normal" title="Button"/>
-                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn"/>
+                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn" title=" "/>
                                                                                             </button>
                                                                                         </subviews>
                                                                                     </stackView>
@@ -267,7 +267,7 @@
                                                                                                     <constraint firstAttribute="height" constant="50" id="QES-7e-biF"/>
                                                                                                 </constraints>
                                                                                                 <state key="normal" title="Button"/>
-                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn"/>
+                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn" title=" "/>
                                                                                             </button>
                                                                                         </subviews>
                                                                                     </stackView>
@@ -352,7 +352,7 @@
                                                                                                     <constraint firstAttribute="height" constant="50" id="IHb-iL-lAu"/>
                                                                                                 </constraints>
                                                                                                 <state key="normal" title="Button"/>
-                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn"/>
+                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn" title=" "/>
                                                                                             </button>
                                                                                         </subviews>
                                                                                     </stackView>
@@ -401,7 +401,7 @@
                                                                                                     <constraint firstAttribute="height" constant="50" id="mQU-xN-ED3"/>
                                                                                                 </constraints>
                                                                                                 <state key="normal" title="Button"/>
-                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn"/>
+                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn" title=" "/>
                                                                                             </button>
                                                                                         </subviews>
                                                                                     </stackView>
@@ -450,7 +450,7 @@
                                                                                                     <constraint firstAttribute="width" constant="50" id="baN-wZ-JPH"/>
                                                                                                 </constraints>
                                                                                                 <state key="normal" title="Button"/>
-                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn"/>
+                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn" title=" "/>
                                                                                             </button>
                                                                                         </subviews>
                                                                                     </stackView>
@@ -496,7 +496,7 @@
                                                                                             <constraint firstAttribute="height" constant="50" id="dGM-Fg-4Fx"/>
                                                                                         </constraints>
                                                                                         <state key="normal" title="Button"/>
-                                                                                        <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn"/>
+                                                                                        <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn" title=" "/>
                                                                                     </button>
                                                                                 </subviews>
                                                                             </stackView>
@@ -578,7 +578,7 @@
                                                                                                     <constraint firstAttribute="height" constant="50" id="m1B-cg-5Zx"/>
                                                                                                 </constraints>
                                                                                                 <state key="normal" title="Button"/>
-                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn"/>
+                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn" title=" "/>
                                                                                             </button>
                                                                                         </subviews>
                                                                                     </stackView>
@@ -627,7 +627,7 @@
                                                                                                     <constraint firstAttribute="width" constant="50" id="rLu-yl-W4g"/>
                                                                                                 </constraints>
                                                                                                 <state key="normal" title="Button"/>
-                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn"/>
+                                                                                                <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn" title=" "/>
                                                                                             </button>
                                                                                         </subviews>
                                                                                     </stackView>
@@ -673,7 +673,7 @@
                                                                                             <constraint firstAttribute="height" constant="50" id="bUV-zz-W5R"/>
                                                                                         </constraints>
                                                                                         <state key="normal" title="Button"/>
-                                                                                        <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn"/>
+                                                                                        <buttonConfiguration key="configuration" style="plain" image="RightArrowBtn" title=" "/>
                                                                                     </button>
                                                                                 </subviews>
                                                                             </stackView>
@@ -871,7 +871,7 @@
                                                                                     <constraint firstAttribute="width" constant="30" id="xzg-NC-Q0a"/>
                                                                                 </constraints>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="plain" image="AppEditProfileBtn"/>
+                                                                                <buttonConfiguration key="configuration" style="plain" image="AppEditProfileBtn" title=" "/>
                                                                                 <connections>
                                                                                     <action selector="profileImgEditBtn:" destination="kDT-r7-X8b" eventType="touchUpInside" id="2vR-6y-XLJ"/>
                                                                                 </connections>
@@ -1200,17 +1200,6 @@
             <point key="canvasLocation" x="656.52173913043487" y="61.607142857142854"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="9ix-Ff-pgW">
-            <size key="intrinsicContentSize" width="48" height="38"/>
-        </designable>
-        <designable name="OOT-nx-LAS">
-            <size key="intrinsicContentSize" width="152.5" height="38"/>
-        </designable>
-        <designable name="aVD-ri-yIa">
-            <size key="intrinsicContentSize" width="96.5" height="38"/>
-        </designable>
-    </designables>
     <resources>
         <image name="AppAlertBtn" width="24" height="24"/>
         <image name="AppBanner" width="327" height="110"/>

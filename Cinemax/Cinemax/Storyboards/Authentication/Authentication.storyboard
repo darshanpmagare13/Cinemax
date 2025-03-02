@@ -159,7 +159,7 @@
                                                                                     <constraint firstAttribute="width" constant="50" id="4oo-ib-qQw"/>
                                                                                 </constraints>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="plain" image="EyeBtnClose"/>
+                                                                                <buttonConfiguration key="configuration" style="plain" image="EyeBtnClose" title=" "/>
                                                                                 <connections>
                                                                                     <action selector="passwordShowHideBtnPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="JaA-Lq-Ptc"/>
                                                                                 </connections>
@@ -378,6 +378,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I already have an account?" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSm-1Y-MI2">
                                                                 <rect key="frame" x="0.0" y="0.0" width="294" height="50"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNJ-Od-96O">
@@ -416,6 +417,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or Sign up with" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taH-OO-e8V">
                                                         <rect key="frame" x="0.0" y="0.0" width="374" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MhH-1m-mgo">
@@ -431,7 +433,7 @@
                                                                             <constraint firstAttribute="height" constant="100" id="z54-fw-5sn"/>
                                                                         </constraints>
                                                                         <state key="normal" title="Button"/>
-                                                                        <buttonConfiguration key="configuration" style="plain" image="GoogleBtn"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" image="GoogleBtn" title=" "/>
                                                                         <connections>
                                                                             <action selector="signInWithGoogleBtnPressed:" destination="3Ug-kw-DqM" eventType="touchUpInside" id="MVI-6k-Y5g"/>
                                                                         </connections>
@@ -499,13 +501,13 @@
                                                                 <rect key="frame" x="10" y="5" width="394" height="90"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let’s get started" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILQ-Rn-zgG">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="51.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="55"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your details." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYd-vK-3qa">
-                                                                        <rect key="frame" x="0.0" y="61.5" width="394" height="28.5"/>
+                                                                        <rect key="frame" x="0.0" y="65" width="394" height="25"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="18"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -758,7 +760,7 @@
                                                                                     <constraint firstAttribute="width" constant="50" id="nAb-zB-QBy"/>
                                                                                 </constraints>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="plain" image="EyeBtnClose"/>
+                                                                                <buttonConfiguration key="configuration" style="plain" image="EyeBtnClose" title=" "/>
                                                                                 <connections>
                                                                                     <action selector="passwordShowHideBtnPressed:" destination="aHa-rY-bQg" eventType="touchUpInside" id="lqN-W6-at1"/>
                                                                                 </connections>
@@ -817,7 +819,7 @@
                                                                                 </constraints>
                                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system"/>
+                                                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system" title=" "/>
                                                                                 <connections>
                                                                                     <action selector="privacyAndPolicyBtnPressed:" destination="aHa-rY-bQg" eventType="touchUpInside" id="JgW-gR-Vol"/>
                                                                                 </connections>

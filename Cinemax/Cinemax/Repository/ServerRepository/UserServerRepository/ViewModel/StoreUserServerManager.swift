@@ -10,11 +10,14 @@ import FirebaseAuth
 import FirebaseFirestore
 import FirebaseStorage
 import UIKit
+import Cloudinary
+
 
 typealias EscapingResultBoolErrorClosure = (Result<Bool, Error>)->()
 
 public final class StoreUserServerManager {
     static let shared = StoreUserServerManager()
+    let cloudinary = CLDCloudinary(configuration: CLDConfiguration(cloudName: "dnacxvjs5", secure: true))
     private init(){}
     
     // MARK: - Store Current UserName And Email To Server
@@ -94,62 +97,33 @@ public final class StoreUserServerManager {
         }
     }
 
-    
-    // MARK: - Save Current User Image To FirebaseStorage
-    
+
+    // MARK: - Save Current User Image To FirebaseStorage (Cloudinary)
     func saveCurrentUserImageToFirebaseStorage(image: UIImage, completion: @escaping (Result<URL, Error>) -> Void) {
-        let storage = Storage.storage()
-        let storageRef = storage.reference()
+        guard let imageData = image.jpegData(compressionQuality: 0.8) else {
+            completion(.failure(NSError(domain: "ImageError", code: 0, userInfo: [NSLocalizedDescriptionKey: "Failed to convert image to data"])))
+            return
+        }
+
+        let config = CLDConfiguration(cloudName: "dnacxvjs5", secure: true)
+        let cloudinary = CLDCloudinary(configuration: config)
         
-        if let uid = Auth.auth().currentUser?.uid {
-            let profileImagesRef = storageRef.child("profile_images/\(uid)")
-            
-            // Get the existing image file name
-            profileImagesRef.listAll { (result, error) in
-                if let error = error {
-                    completion(.failure(error))
-                    return
-                }
-                
-                // Delete existing files
-                for item in result!.items {
-                    item.delete { error in
-                        if let error = error {
-                            completion(.failure(error))
-                            return
-                        }
-                    }
-                }
-                
-                // Store the new image
-                let imageFileName = "\(UUID().uuidString).jpg"
-                if let imageData = image.jpegData(compressionQuality: 0.8) {
-                    let imageRef = profileImagesRef.child(imageFileName)
-                    let uploadTask = imageRef.putData(imageData, metadata: nil) { metadata, error in
-                        if let error = error {
-                            completion(.failure(error))
-                        } else {
-                            imageRef.downloadURL { url, error in
-                                if let downloadURL = url {
-                                    completion(.success(downloadURL))
-                                    print(downloadURL)
-                                } else {
-                                    if let error = error {
-                                        completion(.failure(error))
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    
-                    uploadTask.observe(.progress) { snapshot in
-                        // You can handle progress updates if needed
-                    }
-                }
+        let uploader = cloudinary.createUploader()
+        
+        uploader.upload(data: imageData, uploadPreset: "Profile_Images") { result, error in
+            if let error = error {
+                completion(.failure(error))
+                return
+            }
+
+            if let result = result, let secureUrlString = result.secureUrl, let secureUrl = URL(string: secureUrlString) {
+                completion(.success(secureUrl))
+                print("Uploaded Image URL: \(secureUrl)")
+            } else {
+                completion(.failure(NSError(domain: "UploadError", code: 0, userInfo: [NSLocalizedDescriptionKey: "Unknown upload error"])))
             }
         }
     }
-
     
     // MARK: - Save Current User Image To FirebaseDatabase
     
