@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return orientationLock
     }
     
+    
+    
     func application(_ app: UIApplication,
                      open url: URL,
                      options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
